@@ -110,7 +110,7 @@ Public Class Form1
         Dim IsUserInDiscord As Boolean = False
         Dim UserInDiscord As DiscordUser = e.Message.Author
         If e.Message.Author.Username = "MythologyBot" = False Then
-            If e.Channel.Id = 421973555639615492 Then 'The Union
+            If e.Channel.Id = 421973555639615492 Then 'MINOTAUROTOTAL
                 If e.Message.Content.ToLower.Contains("@") And e.Message.Content.ToLower.Contains("http") = False Then
                     Dim SplitWords As String() = e.Message.Content.Split(" ")
                     If SplitWords.Count >= 2 Then
